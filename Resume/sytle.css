@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.profile {
+  border-radius: 50%;
+}
+
+.imageBackground {
+  background-color: darkgray;
+  margin-bottom: 30px;
+}
+
+#text {
+
+  padding-bottom: 20px;
+}
+
+h2 {
+  width: 100%;
+  height: 12px;
+  text-align: center;
+  border-bottom: 15px solid lightblue;
+  line-height: 0.9em;
+  margin: 10px 0 20px;
+}
+
+h2 span {
+  background: lightgreen;
+  padding: 20 15px;
+  margin: 12px;
+}
+
+#address {
+  text-align: justify;
+  padding-left: 130px;
+  font-size: 20pxvw;
+}
+
+hr {
+  border-bottom: 4px lightblue;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border-right {
+  border-right: 6px solid lightblue;
+  height: 100%;
+}
+
+li {
+  padding-top: 20px;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h4 {font-size:10px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h4 {font-size:1rem;} 
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h4 {font-size:2.5rem;} 
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h4 {font-size:1.6rem;}   
+}
